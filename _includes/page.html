@@ -1,0 +1,85 @@
+<div class="tool" >
+	<!-- main navigator -->
+	<div class="demos">
+		<h2>{{ here | upcase }}</h2>
+		<ul class="main_navi">
+
+
+{% for page in site.categories.[here] limit:numOfItems%}
+
+	{% for item in page.categories  %}
+
+		{% if item != 'homepage-content' and item != here %}
+
+			<!-- there is still this redundancy, that everything show up twice... -->
+				<li>
+					<img src="{{ page.iconUrl }}" height="75"/>
+					<strong>{{ page.title }}</strong>
+					{{ page.subtitle }}
+
+				</li>
+			
+		{% endif %}
+		
+	{% endfor %}
+{% endfor %}
+
+
+		</ul>
+	</div>
+
+
+	<!-- root element for the main scrollable -->
+	<div class="main">
+
+		<!-- root element for pages -->
+		<div class="pages">
+
+		{% for page in site.categories.[here] %}
+			{% for item in page.categories %}
+	
+				{% if item != 'homepage-content' and item != here %}
+		
+				<!-- page #1 -->
+				<div class="page">
+
+					<!-- sub navigator #1 -->
+					<div class="navi_unter"></div>
+
+					<!-- inner scrollable #1 -->
+					<div class="scrollable">
+
+						<!-- root element for scrollable items -->
+						<div class="items">
+								<!-- items  -->
+								{% for subpage in site.categories.[item] %}
+			
+									<div class="item">
+										{{ subpage.content }}
+									</div>
+				
+								{% endfor %}
+						</div>
+
+					</div>
+
+				</div>
+				{% endif %}
+		
+			{% endfor %}
+		{% endfor %}
+
+
+
+
+		</div>
+	
+	</div>
+
+</div>
+
+
+
+
+
+

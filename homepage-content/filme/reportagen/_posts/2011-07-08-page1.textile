@@ -1,0 +1,6 @@
+---
+title: 'Boris Erdtmann'
+subtitle: 'Unser Alleskönner'
+iconUrl: 'http://farm4.static.flickr.com/3278/2691545308_e7e817afb0_s.jpg'
+---
+A *Boris* second example.

@@ -1,0 +1,304 @@
+/* Hauptnavigation */
+
+body {
+	padding:0;
+    background: #F4F4F6 url(../img/gradient.jpg) repeat-x 0px 0px;
+}
+
+#aboveall{
+position: absolute;
+top:0px;
+
+}
+
+#scroll {
+	position:relative;
+	height:560px; /* was 460 */
+	overflow:hidden;
+	width:920px;
+	padding:15px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	z-index: 1;
+}
+
+
+.tool {
+	margin: auto;
+	width:870px; /* was 970 */
+	height:440px;
+	background-repeat:no-repeat;
+	background-position:0 -40px;
+	background: #F4F4F6;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #F59E00;
+	
+}
+
+.details {
+	background-color:#fff;
+	
+	color:#666;
+	font-size:20px;
+	/*margin:270px 0 0 0;*/
+	margin:40px auto;
+		
+	width:670px; /* was 970 */
+	height:240px;
+	
+	padding:10px 50px 10px 60px;
+	max-width:455px;
+	height:260px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.demos {
+	background-color:#fff;
+	background-color:rgba(255, 255, 255, 0.7);
+	background: #F4F4F6;
+	border-left:1px solid #F59E00;
+	float:right;
+	min-height:440px;
+	padding:0 25px;
+	width:272px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	
+}
+
+.demos h2 {
+	color:#065598;
+	font-size:22px;
+	display:block;
+	padding:10px 0;
+}
+
+.demos a {
+	color:#666;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.demos p {
+	margin:0 0 4px;
+/*	background:transparent url(http://static.flowplayer.org/tools/img/bullet.png) no-repeat scroll 0 2px;*/
+	padding:2px 0 1px 22px;
+}
+
+#thumbs {
+	background:url(../img/earlybird-nav.jpg) no-repeat -10px 0px;
+	height:80px;
+	position:absolute;
+	top:510px; /* was 410 */
+	width:930px;
+	left:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.t a {
+	background:transparent url(../img/earlybird-nav.jpg) no-repeat scroll -20px -90px;
+	margin-left:9px;  /* 11 */
+	display:block;
+	width:101px;
+	float:left;
+	height:90px;
+	cursor:pointer;
+}
+
+.t a.active {
+	cursor:default !important;
+}
+
+.navi {
+	margin-left:260px;
+	_margin-left:250px; /* this was 304 */
+}
+
+/* CSS sprite for the navigation */
+#t0 		  { margin-left:10px; _margin-left:0px;}
+#t0.active { background-position:-20px 0 !important; }
+#t0:hover  { background-position:-21px -180px; }
+#t0:active { background-position:-21px -270px; }
+
+#t1			{ background-position:-280px -90px; }
+#t1:hover 	{ background-position:-281px -180px; }
+#t1:active	{ background-position:-281px -270px; }
+#t1.active	{ background-position:-280px 0 !important; }
+
+#t2			{ background-position:-390px -90px; }
+#t2:hover 	{ background-position:-391px -180px; }
+#t2:active	{ background-position:-391px -270px; }
+#t2.active	{ background-position:-390px 0 !important; }
+
+#t3			{ background-position:-499px -90px; }
+#t3:hover 	{ background-position:-500px -180px; }
+#t3:active	{ background-position:-500px -270px; }
+#t3.active	{ background-position:-499px 0 !important; }
+
+#t4			{ background-position:-610px -90px; }
+#t4:hover 	{ background-position:-611px -180px; }
+#t4:active	{ background-position:-611px -270px; }
+#t4.active	{ background-position:-610px 0 !important; }
+
+#t5			{ background-position:-720px -90px; }
+#t5:hover 	{ background-position:-721px -180px; }
+#t5:active	{ background-position:-721px -270px; }
+#t5.active	{ background-position:-720px 0 !important; }
+
+#t6			{ background-position:-829px -90px; }
+#t6:hover 	{ background-position:-830px -180px; }
+#t6:active	{ background-position:-830px -270px; }
+#t6.active	{ background-position:-829px 0 !important; }
+
+
+
+/* Unternavigation */
+
+
+/*********** navigator ***********/
+
+
+/* position and dimensions of the navigator */
+div.navi_unter {
+
+	margin-left:268px;
+	width:200px;
+	height:20px;
+}
+
+
+/* items inside navigator */
+div.navi_unter a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background:url(../img/navigator.png) 0 -16px no-repeat;
+	display:block;
+	font-size:1px;
+}
+
+/* mouseover state */
+div.navi_unter a:hover {
+	background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+div.navi_unter a.active {
+	background-position:0 0px;     
+} 	
+
+
+
+/* main vertical scroll */
+.main {
+	background: white;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	position:relative;
+	overflow:hidden;
+	height: 440px;
+}
+
+/* root element for pages */
+.pages {
+	position:absolute;
+	height:20000em;
+	left:10px;
+}
+
+/* single page */
+.page {
+	padding:10px;
+	height: 420px;
+	background:#fff;
+	width:520px;
+}
+
+/* root element for horizontal scrollables */
+.scrollable {
+	position:relative;
+	overflow:hidden;
+	width: 603px;
+	height: 400px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+/* single scrollable item */
+.item {
+	float:left;
+	cursor:pointer;
+	width:500px;
+	height:380px;
+	padding:10px 30px 10px 0px;
+}
+
+
+/* main navigator */
+.main_navi {
+	float:left;
+	padding:0px !important;
+	margin:0px !important;
+}
+
+.main_navi li {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#fff;
+	border:1px solid #002C59;
+	clear:both;
+	color:#000;
+	font-size:12px;
+	height:59px;
+	list-style-type:none;
+	padding:10px;
+	width:240px;
+	cursor:pointer;
+	margin-bottom: 10px;
+}
+.main_navi img {
+margin-left: -8px;
+margin-top:-8px;
+margin-bottom: -8px;
+}
+
+.main_navi li:hover {
+	border:1px solid #F59E00;
+
+}
+
+.main_navi li.active {
+	background-color:#002C59;
+	color:#fff;
+}
+
+.main_navi img {
+	float:left;
+	margin-right:10px;
+}
+
+.main_navi strong {
+	display:block;
+}
+
+.main div.navi {
+	margin-left:250px;
+	cursor:pointer;
+}
+
+
+
+

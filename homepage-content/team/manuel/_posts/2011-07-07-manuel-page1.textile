@@ -1,0 +1,6 @@
+---
+title: 'Manuel Klarmann'
+subtitle: 'Für die Technik'
+iconUrl: '/homepage-content/images/manu.jpg'
+---
+Manuel Klarmann ist bei EarlyBird verantwortlich für die Technik. Er studierte Mathematik mit Psychologie und Informatik an der Ludwig Maximillians Universität in München und an der Universität Utrecht. Nach dem Erhalt des Bachelordiploms in Mathematik mit Neuroinformatik an der Universität Zürich ist er bis dato Masterstudent in Neuroinformatik an der ETH Zürich. Manuel realisiert als freier Mitarbeiter der Earlybirdmedia AG München Internetauftritte sowie die informationstechnische Automatisierung von Testauswertungen des Youngworld Institut München. Er hielt diverse Mathematik-Tutorien an den Universitäten sowie Informatik-Schulungen an den Beruflichen Fortbildungszentren der Bayerischen Wirtschaft in München.

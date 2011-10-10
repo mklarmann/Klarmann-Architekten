@@ -1,0 +1,200 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Avantgarde,Arial;
+    font-size: 13px;
+    height: 100%;
+    background: #F4F4F6 url(../img/gradient.jpg) repeat-x 0px 0px;
+    color: #333;
+    overflow: hidden;
+}
+img {
+    border: none;
+}
+
+div.content {
+    width: 200px;
+    height: 200px;
+/* 	background:#fff; */
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    float: left;
+    margin: 10px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+#wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+div.pointer {
+    border-style:solid;
+    height:0px;
+    line-height:0px;
+    width:0px;
+    z-index: 5;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#g-tl {
+    border-bottom-color:transparent;
+    border-bottom-width:20px;
+    border-left-color:#000;
+    border-left-width:20px;
+    border-right-color:transparent;
+    border-right-width:20px;
+    border-top-color:transparent;
+    border-top-width:0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#g-tr {
+    border-bottom-color:transparent;
+    border-bottom-width:20px;
+    border-left-color:transparent;
+    border-left-width:20px;
+    border-right-color:#000;
+    border-right-width:20px;
+    border-top-color:transparent;
+    border-top-width:0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#g-bl {
+    border-bottom-color:#000;
+    border-bottom-width:10px;
+    border-left-color:#000;
+    border-left-width:10px;
+    border-right-color:transparent;
+    border-right-width:10px;
+    border-top-color:transparent;
+    border-top-width:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#g-br {
+    border-bottom-color:#000;
+    border-bottom-width:10px;
+    border-left-color:transparent;
+    border-left-width:10px;
+    border-right-color:#000;
+    border-right-width:10px;
+    border-top-color:transparent;
+    border-top-width:10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#g-t {
+    border-bottom-color:#000;
+    border-bottom-width:20px;
+    border-left-color:transparent;
+    border-left-width:20px;
+    border-right-color:transparent;
+    border-right-width:20px;
+    border-top-color:transparent;
+    border-top-width:0px;
+    margin-top: 10px;
+}
+#g-b {
+    border-bottom-color:transparent;
+    border-bottom-width:0px;
+    border-left-color:transparent;
+    border-left-width:20px;
+    border-right-color:transparent;
+    border-right-width:20px;
+    border-top-color:#000;
+    border-top-width:20px;
+    margin-bottom: 10px;
+}
+#g-l {
+    border-bottom-color:transparent;
+    border-bottom-width:20px;
+    border-left-color:transparent;
+    border-left-width:10px;
+    border-right-color:#000;
+    border-right-width:20px;
+    border-top-color:transparent;
+    border-top-width:20px;
+    margin-top: 10px;
+}
+#g-r {
+    border-bottom-color:transparent;
+    border-bottom-width:20px;
+    border-left-color:#000;
+    border-left-width:20px;
+    border-right-color:transparent;
+    border-right-width:10px;
+    border-top-color:transparent;
+    border-top-width:20px;
+    margin-top: 10px;
+}
+
+/* dock - bottom */
+#dock {
+    width: 100%;
+    bottom: 40px;
+    position: absolute;
+    left: 0px;
+    z-index: 5;
+    height: 50px; 
+    text-align: center;
+}
+.dock-container {
+    position: absolute;
+    height: 50px;
+/*    background: url(images/dock-bg.gif);*/
+}
+a.dock-item {
+    display: block; 
+    font: bold 22px Arial, Helvetica, sans-serif;
+    width: 40px;
+    color: #aaa; 
+    bottom: 0px; 
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+pointer-text {
+	 font: 22px Avantgarde, Helvetica, sans-serif;
+}
+
+.dock-item span {
+    display: none;
+}
+.dock-item img {
+    border: none;
+    width: 100%;
+}
+
+div.content p {
+    padding: 5px;
+}
+
+td {
+    vertical-align: top;
+    font-size: 11px;
+}
+
+p.home {
+    background-image: url(./images/white.png);
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.project-tile {
+    background: url(./images/bamboo.jpg);
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+}
+.project-tile div {
+    background: #fff;
+    padding: 5px;
+    height: 290px;
+}

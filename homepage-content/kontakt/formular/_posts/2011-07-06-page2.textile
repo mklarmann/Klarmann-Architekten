@@ -1,0 +1,6 @@
+---
+title: 'Manuel Klarmann'
+subtitle: 'Für die Technik'
+iconUrl: 'http://farm4.static.flickr.com/3278/2691545308_e7e817afb0_s.jpg'
+---
+A *Manuel* example.
